@@ -1,0 +1,43 @@
+
+<html>
+<head>
+<title>Calculator</title>
+</head>
+<body background="2933782-the-big-black-calculator-keypad-background-close-up.jpg">
+<form name="Calc">
+<table border="1">
+<tr>
+<td>
+<input type="text" name="input" Size="16">
+</td></tr><br>
+<tr>
+<td>
+<input type="button" name="one" value="1" onclick="Calc.input.value+='1'">
+<input type="button" name="two" value="2" onclick="Calc.input.value+='2'">
+<input type="button" name="three" value="3" onclick="Calc.input.value+='3'">
+<input type="button" name="plus" value="+" onclick="Calc.input.value+='+'">
+</td>
+</tr>
+<tr> <td>
+<input type="button" name="four" value="4"onclick="Calc.input.value+='4'">
+<input type="button" name="five" value="5"onclick="Calc.input.value+='5'">
+<input type="button" name="six" value="6"onclick="Calc.input.value+='6'">
+<input type="button" name="minus" value="-"onclick="Calc.input.value+='-'">
+</td></tr>
+<tr><td>
+<input type="button" name="seven" value="7"onclick="Calc.input.value+='7'">
+<input type="button" name="eight" value="8"onclick="Calc.input.value+='8'">
+<input type="button" name="nine" value="9"onclick="Calc.input.value+='9'">
+<input type="button" name="multiply" value="*"onclick="Calc.input.value+='*'">
+</td></tr>
+<tr>
+<td>
+<input type="button" name="divide" value="/"onclick="Calc.input.value+='/'">
+<input type="reset" value="Del">
+<input type="button" name="equals to" value="="onclick="Calc.input.value=eval(Calc.input.value)">
+<input type="button" name="zero" value="0"onclick="Calc.input.value+='0'">
+<input type="button" name="back" value="Backspace"onclick="Calc.input.value = Calc.input.value.slice(0,Calc.input.value.length-1)">
+</td></tr></table>
+</form>
+</body>
+</html>
