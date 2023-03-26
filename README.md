@@ -1,2 +1,2 @@
-# Calculator
+# Calculator written in html language.
 SIMPLE CALCULATOR FOR BASIC ARITHMETIC OPERATIONS
